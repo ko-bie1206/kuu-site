@@ -13,7 +13,7 @@ const LINKS = {
 
 // 制作実績
 //   type : "thumb"（サムネイル） / "long"（動画編集） / "short"（ショート）
-//   img  : 画像パス（例: "works/thumb01.jpg"）。空ならダミー表示
+//   img  : 画像パス（例: "work01.jpg"）。空ならダミー表示
 //   url  : 動画やXポストへのリンク（任意）
 const WORKS = [
   { type: "thumb", title: "雑談配信サムネイル",   client: "個人勢Vtuber 様", img: "", url: "" },
