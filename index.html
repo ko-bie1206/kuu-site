@@ -1,0 +1,203 @@
+<!doctype html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>くー｜Vtuber向けサムネイル・動画編集</title>
+  <meta name="description" content="個人・企業Vtuber様向けのサムネイル制作、動画編集（横長ロング）、ショート動画制作。伸びている事例を徹底分析し、くー独自の素材使いで「見やすく、わかりやすい」クリエイティブに仕上げます。">
+  <meta property="og:title" content="くー｜Vtuber向けサムネイル・動画編集">
+  <meta property="og:description" content="伸びる“型”に、くーらしさをひと匙。サムネイル・動画編集・ショート動画のご依頼受付中。">
+  <meta property="og:image" content="assets/header.png">
+  <meta name="twitter:card" content="summary_large_image">
+  <link rel="icon" href="assets/icon.webp">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Zen+Maru+Gothic:wght@500;700;900&family=Mochiy+Pop+One&family=Fredoka:wght@500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- 手描き風のゆらぎ線（カードの枠線に使用） -->
+  <svg width="0" height="0" style="position:absolute" aria-hidden="true">
+    <filter id="wobble" x="-5%" y="-5%" width="110%" height="110%">
+      <feTurbulence type="fractalNoise" baseFrequency="0.02" numOctaves="2" seed="3" result="n"/>
+      <feDisplacementMap in="SourceGraphic" in2="n" scale="2.5"/>
+    </filter>
+    <filter id="fuzz">
+      <feTurbulence type="fractalNoise" baseFrequency="0.9" numOctaves="1" seed="8" result="n"/>
+      <feDisplacementMap in="SourceGraphic" in2="n" scale="2.2"/>
+    </filter>
+  </svg>
+
+  <!-- ===== HERO ===== -->
+  <header class="hero">
+    <div class="hero__banner">
+      <img src="assets/header.png" alt="Kuu~ ヘッダー" width="1500" height="500">
+    </div>
+    <div class="hero__body wrap">
+      <div class="avatar">
+        <img src="assets/icon.webp" alt="くーのアイコン（カメラを構えるナマケモノ）" width="160" height="160">
+      </div>
+      <h1 class="hero__name">くー <span class="en">Kuu~</span></h1>
+      <p class="hero__role">Vtuber専門｜サムネイル・動画編集・ショート動画制作</p>
+      <p class="hero__catch">伸びる“型”に、<br class="sp">くーらしさをひと匙。</p>
+      <ul class="sns" id="sns"></ul>
+      <a class="btn btn--main" href="#contact">ご依頼・ご相談はこちら</a>
+    </div>
+  </header>
+
+  <nav class="nav" aria-label="ページ内メニュー">
+    <ul>
+      <li><a href="#concept">Concept</a></li>
+      <li><a href="#service">Service</a></li>
+      <li><a href="#works">Works</a></li>
+      <li><a href="#price">Price</a></li>
+      <li><a href="#flow">Flow</a></li>
+      <li><a href="#faq">FAQ</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+
+  <main class="wrap">
+
+    <!-- ===== ABOUT ===== -->
+    <section class="card about reveal">
+      <p>
+        はじめまして、<strong>くー</strong>です。<br>
+        個人勢・企業勢のVtuberさんに向けて、サムネイル制作と動画編集をお受けしています。<br>
+        伸びている事例をとことん研究したうえで、くー独自の素材使いで
+        <mark>「見やすくて、わかりやすい」</mark>クリエイティブに仕上げます。
+      </p>
+    </section>
+
+    <!-- ===== CONCEPT ===== -->
+    <section id="concept" class="section reveal">
+      <h2 class="h2"><span class="h2__en">Concept</span>まねぶ、そして、生まれかわる。</h2>
+      <p class="lead">「学ぶ」の語源は「まねぶ（真似ぶ）」。<br>うまくいっている事例の良いところはしっかり真似て、<br class="pc">足りないところはくーのセンスで生まれ変わらせます。</p>
+
+      <div class="equation">
+        <div class="eq__item card">
+          <span class="eq__label">事例の</span>
+          <strong>良いところ</strong>
+          <small>伸びている構成・配色・文字組み</small>
+        </div>
+        <span class="eq__op" aria-hidden="true">＋</span>
+        <div class="eq__item card">
+          <span class="eq__label">くーの</span>
+          <strong>改善ポイント</strong>
+          <small>独自の素材使い・オリジナリティ</small>
+        </div>
+        <span class="eq__op" aria-hidden="true">＝</span>
+        <div class="eq__item card eq__item--result">
+          <span class="eq__label">需要 × 個性の</span>
+          <strong>伸びるクリエイティブ</strong>
+          <small>見やすく、わかりやすく、らしさがある</small>
+        </div>
+      </div>
+
+      <div class="points">
+        <article class="point card">
+          <span class="point__no">01</span>
+          <h3>徹底的に事例ベース</h3>
+          <p>「なんとなく」で作りません。同じジャンルで再生数やクリック率が伸びている事例を分析し、需要のある“型”を土台にします。</p>
+        </article>
+        <article class="point card">
+          <span class="point__no">02</span>
+          <h3>独自の素材の入れ方</h3>
+          <p>素材は“飾り”ではなく“案内役”。視線の流れに合わせて素材を置き、ひと目で内容が伝わる画面をつくります。</p>
+        </article>
+        <article class="point card">
+          <span class="point__no">03</span>
+          <h3>基礎にこだわる</h3>
+          <p>文字の読みやすさ、余白、テンポ、音量バランス。オリジナリティは、しっかりした基礎の上でこそ活きると考えています。</p>
+        </article>
+      </div>
+    </section>
+
+    <!-- ===== SERVICE ===== -->
+    <section id="service" class="section reveal">
+      <h2 class="h2"><span class="h2__en">Service</span>できること</h2>
+      <div class="services">
+        <article class="service card">
+          <div class="service__icon service__icon--thumb" aria-hidden="true"><span></span></div>
+          <h3>サムネイル制作</h3>
+          <p>配信・動画のサムネイル。クリックしたくなる情報設計と、推しの魅力が伝わる構図でつくります。</p>
+          <ul class="tags"><li>配信告知</li><li>歌枠</li><li>記念配信</li><li>切り抜き</li></ul>
+        </article>
+        <article class="service card">
+          <div class="service__icon service__icon--long" aria-hidden="true"><span></span></div>
+          <h3>動画編集<small>（横長・ロング）</small></h3>
+          <p>配信アーカイブ、企画動画、ゲーム実況など。テロップ・SE・素材演出で、最後まで見たくなるテンポに。</p>
+          <ul class="tags"><li>企画動画</li><li>ゲーム実況</li><li>雑談まとめ</li><li>MV風</li></ul>
+        </article>
+        <article class="service card">
+          <div class="service__icon service__icon--short" aria-hidden="true"><span></span></div>
+          <h3>ショート動画制作</h3>
+          <p>YouTube Shorts・TikTok・Reels向け。最初の1秒でつかむ構成と、縦画面で読みやすいテロップで。</p>
+          <ul class="tags"><li>Shorts</li><li>TikTok</li><li>切り抜き</li><li>告知</li></ul>
+        </article>
+      </div>
+    </section>
+
+    <!-- ===== WORKS ===== -->
+    <section id="works" class="section reveal">
+      <h2 class="h2"><span class="h2__en">Works</span>制作実績</h2>
+      <div class="filters" role="tablist" aria-label="実績の絞り込み">
+        <button class="filter is-active" data-filter="all" role="tab" aria-selected="true">すべて</button>
+        <button class="filter" data-filter="thumb" role="tab" aria-selected="false">サムネイル</button>
+        <button class="filter" data-filter="long" role="tab" aria-selected="false">動画編集</button>
+        <button class="filter" data-filter="short" role="tab" aria-selected="false">ショート</button>
+      </div>
+      <div class="works" id="works-grid"></div>
+      <p class="note">※ 掲載許可をいただいた作品のみ掲載しています。非公開の実績はお問い合わせ時にご案内できます。</p>
+    </section>
+
+    <!-- ===== PRICE ===== -->
+    <section id="price" class="section reveal">
+      <h2 class="h2"><span class="h2__en">Price</span>料金のめやす</h2>
+      <div class="prices" id="prices"></div>
+      <p class="note">※ 価格は目安です。内容・尺・素材の有無・納期により変動しますので、お気軽にお見積りをご依頼ください。<br>※ 企業様・事務所様のご依頼、継続でのご依頼はご相談ください。</p>
+    </section>
+
+    <!-- ===== FLOW ===== -->
+    <section id="flow" class="section reveal">
+      <h2 class="h2"><span class="h2__en">Flow</span>ご依頼の流れ</h2>
+      <ol class="flow">
+        <li class="card"><span class="flow__no">1</span><div><h3>お問い合わせ</h3><p>X(Twitter)のDM・メール・フォームからご連絡ください。</p></div></li>
+        <li class="card"><span class="flow__no">2</span><div><h3>ヒアリング・お見積り</h3><p>雰囲気、用途、参考にしたい動画、納期などをお伺いします。</p></div></li>
+        <li class="card flow__special"><span class="flow__no">3</span><div><h3>事例リサーチ・構成案 <em>くーのこだわり</em></h3><p>同ジャンルの伸びている事例を調べ、「真似る点」と「改善する点」を整理してご提案します。</p></div></li>
+        <li class="card"><span class="flow__no">4</span><div><h3>制作・確認</h3><p>途中経過を共有しながら制作。修正は2回まで無料です。</p></div></li>
+        <li class="card"><span class="flow__no">5</span><div><h3>納品・お支払い</h3><p>データを納品し、お支払いをもって完了です。</p></div></li>
+      </ol>
+    </section>
+
+    <!-- ===== FAQ ===== -->
+    <section id="faq" class="section reveal">
+      <h2 class="h2"><span class="h2__en">FAQ</span>よくあるご質問</h2>
+      <div class="faq">
+        <details class="card"><summary>個人勢でも企業勢でも依頼できますか？</summary><p>はい、どちらも歓迎です。事務所様・企業様の継続案件もご相談ください。</p></details>
+        <details class="card"><summary>素材（立ち絵など）は用意が必要ですか？</summary><p>立ち絵・ロゴなどVtuberさんご本人の素材はご支給をお願いしています。背景やエフェクトなどの汎用素材はこちらで用意します。</p></details>
+        <details class="card"><summary>納期はどれくらいですか？</summary><p>サムネイルは3〜5日、動画編集は尺によって1〜2週間が目安です。お急ぎの場合はご相談ください（特急料金が発生する場合があります）。</p></details>
+        <details class="card"><summary>参考にしたい動画やサムネがあるのですが…</summary><p>大歓迎です！参考事例があると「良いところ」の共有がスムーズになり、より狙い通りに仕上がります。</p></details>
+        <details class="card"><summary>実績として公開されたくないのですが大丈夫ですか？</summary><p>もちろん大丈夫です。ご依頼時に掲載可否をお伺いし、NGの場合は一切公開しません。</p></details>
+      </div>
+    </section>
+
+    <!-- ===== CONTACT ===== -->
+    <section id="contact" class="section reveal">
+      <div class="contact card">
+        <img class="contact__icon" src="assets/icon.webp" alt="" width="96" height="96">
+        <h2 class="h2 h2--center"><span class="h2__en">Contact</span>ご依頼・ご相談</h2>
+        <p>「こんなことできる？」だけでも大丈夫です。<br>お気軽にどうぞ。</p>
+        <div class="contact__btns" id="contact-btns"></div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="wave" aria-hidden="true"></div>
+    <p>&copy; <span id="year"></span> くー / Kuu~</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
